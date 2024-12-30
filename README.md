@@ -16,13 +16,13 @@ This Python and Selenium-based bot automates applying to jobs using the Easy App
 
 ## Getting Started
 
-1. Modify the `config.py` file locally to include your LinkedIn credentials, personal information, and job preferences.
+1. Modify the `config.yaml` file locally to include your LinkedIn credentials, personal information, and job preferences.
 
 2. Install python3 and pip3 on your system. Then, install the required dependencies using the following commands: (Unix commands)
 ```bash
-sudo apt-get install python3
-python3 -m pip install webdriver-manager --upgrade
-python3 -m pip install packaging
+sudo apt-get install python
+python -m pip install webdriver-manager --upgrade
+python -m pip install packaging
 ```
 
 3. Run the bot with python
